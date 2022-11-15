@@ -1,5 +1,10 @@
+/* navbar*/
+.nav{
+	color:orange;
+}
+
 #banner1{
-     background-image:url("DSC_8749.JPG");
+     background-image:url("events-bg.jpg");
 	 background-size: cover;
 	 color: black;
 	 height:90vh;
@@ -37,6 +42,7 @@
    .content1 span::after{
 	content:"";
 	position:absolute;
+	margin: auto;
 	top:35px;
 	bottom:0;
 	right:0;
@@ -50,27 +56,109 @@
 	
    }
    .icon {
-     background-color:black;
+     background-color:gray;
 	 height: 35px;
 	width:7%;
 	border-radius: 50%;
-	color: white;
+	color: black;
 	margin-left:0.8rem;
 	margin-top: 1rem;
+	padding-top: 6px;
+   }
+   .icon:hover{
+	background-color:orange;
+	color: aliceblue;
+	transition:ease-in-out 0.2s;
    }
    .icon i{
 	 margin-left: 0.4rem;
-	 margin-top: 1rem;
+	 padding-top:10px;
    }
 
   /*about section*/
+  #about-section{
+
+  }
   .about-section{
-	background-color: gray;
+	background-color:gray;
   }
    .about2{
 	background-color:black ;
    }
-  .about-img img{
-	background-size: cover;
+  .content2 h1{
+	color:white;
+	text-align: center;
+   }
+   .content2{
+	position: relative;
+   }
+   .content2 h1::after{
+	content:"";
+	position:absolute;
+	top:45px;
+	bottom:0;
+	right:0;
+	left:0;
+	margin: auto;
+	height: 0.2rem;
+	width: 10%;
+	background-color: aqua;
+   }
+   .about-img img{
+	border-radius: 50%;
+   }
+   .about-icons span{
+	display:flex;
+	color: aqua;
+   }
+   .about-icons p{
+	color:white;
+   }
+   .ic{
+	display: flex;
+   }
+   .inpara{
+	color: beige;
+   }
+   .ui h2{
+	color: aqua;
+   }
+   .ui i{
+	color: white;
+	line-height: 1.2rem;
+   }
 
-  }
+   /*skill section*/
+   .heading h1{
+	position: relative;
+	text-align: center;
+   }
+   .heading h1::after{
+	content:"";
+	position:absolute;
+	top:45px;
+	bottom:0;
+	right:0;
+	left:0;
+	margin: auto;
+	height: 0.2rem;
+	width: 10%;
+	background-color: aqua;
+   }
+   
+
+   /*resume section*/
+   #Resume-section{
+	background-color:black;
+	color: aliceblue;
+   }
+   .heading-resume{
+	text-align: center;
+	color:;
+   }
+
+   /*facts section*/
+   .facts{
+	background-color: bisque;
+   }
+  

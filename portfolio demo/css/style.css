@@ -174,15 +174,19 @@
    }
    .pro h1{
 	font-size: 2rem;
-	font-family:'Dancing Script', cursive;
+	font-family:'Cinzel', serif;;
    }
    .pro a{
 	background-color:red;
-	text-align: center;
 	list-style: none;
 	color: aliceblue;
 	border-radius: 6px;
-	padding:0.2rem;
-	margin-left: 13rem;
    }
-  
+  .pro p{
+	text-align: center;
+  }
+  .pro p:hover a{
+	background-color: darkgoldenrod;
+	color: white;
+	transition: ease-in-out 0.3s;
+  }

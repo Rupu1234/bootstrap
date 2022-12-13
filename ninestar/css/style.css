@@ -1,5 +1,5 @@
 	.nav-item a:hover{
-		color:red !important;
+		color:orange !important;
 	}
 	.banner{
 		background-color:#FEF9E7;
@@ -8,40 +8,32 @@
 		color:gray !important;
 		font-size:1.7rem !important;
 	}
-	.butn{
-		background-color:#eb5d1e;
-	}
-	.ut{
-		animation:move 5s infinite;
+	.ut img{
+		animation:move 2s infinite;
 		position:relative;
 	}
+	.active{
+		color:orange;
+	}
+	.btn{
+        background-color: #eb5d1e!important;
+		border: none!important;
+	}
+
 @keyframes move{
-	animation: 2s ease-in-out;
-  0%{
-	top: 0px;
 	
-	}
-  25%{
-	top: 30px;
-  	
-    }
-  75%{
-	top: 20px;
-	
-	}
-  100%{
-	top: 30px;
-	
-	}
-    }
+ from{bottom:0px;}
+ to{bottom:10px};
+}
 
 
 /*banner2 start*/
 	.banner2 h1{
-		font-weight:400 !important;
+		font-weight:500 !important;
 	}
 	.banner2 p{
 		color:gray;
+	
 	}
 	iconify-icon{
 		color:orange !important;
@@ -202,14 +194,14 @@
 			bottom:0;
 			right:11px;
 			left:11px;
-			background-color:#00000047;
+			background-color:black;
 			opacity:0;
 			border-radius:6%;
 			padding:2px;
 			
 		}
 		.port-img:hover .port-hover{
-			opacity:1;
+			opacity:0.5;
 			transition:0.5s ease-in-out;
 		}
 		@media(min-width:768px){
@@ -232,12 +224,13 @@
 		color:gray !important;
 		font-size:1.5rem;
 	}
-	.banner5 p{
-		text-align:center !important;
+	.ban p{
+		
 		font-size:2rem !important;
 		font-weight:650 !important;
+		color:black;
 	}
-	.banner5 p::after{
+	.ban p::after{
 		height:2px;
 		width:10%;
 		margin:auto;
@@ -247,16 +240,26 @@
 		background-color:orange;
 		top:10px;
 		border-radius:50%;
-		
-		
+	}
+	.del p{
+		font-size:1rem;
+		text-align:left;
+	}
+	summary{
+		text-align:left;
+		font-weight: 600;
+	}
+	summary:hover{
+		color: orange;
+		transition: 1s ease-in-out;
 	}
 	.faqbg{
 		background-color:#FEF9E7;
 	}
-
+    
 /*team section*/
 	  .team-title h3{
-		margin:5% 0 0 0;
+		margin: 2z 3px;% 0 0 0;
 		color:#c2b7b1;
 		font-weight:600;
 	}
@@ -361,11 +364,11 @@
 	.clientimg img{
 		width:100px;
 		height:auto;
-		filter:grayscale(50%);
+		filter:grayscale(80%);
 	}
 	.clientimg img:hover{
 		filter:none;
-		transition:0.5s ease-in-out;
+		transition:0.2s ease-in-out;
 	}
 	/*contact section*/
 	   .contact{
@@ -403,6 +406,7 @@
 	#contacts .b-ho:hover i{
 		color: white;
 		background: #eb5d1e;
+		transition: 0.7s ease-in-out;
 	}
 	.bor-bot-color{
 		border-bottom: 3px solid #eb5d1e;
@@ -503,4 +507,11 @@
 	}
 	.copy-r p{
 		display:inline;
+	}
+    .boost{
+		margin-top: 1.5rem;
+	}
+	.col{
+		display: flex;
+		justify-content: space-between;
 	}

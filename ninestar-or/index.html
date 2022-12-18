@@ -22,19 +22,19 @@
 			<div class="nav-con collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
 			  <ul class="navbar-nav">
 				<li class="nav-item  px-1">
-				  <a class="nav-link active " aria-current="page" href="#">Home</a>
+				  <a class="nav-link active " aria-current="page" href="#home">Home</a>
 				</li>
 				<li class="nav-item px-1">
-				  <a class="nav-link home" href="#">About us</a>
+				  <a class="nav-link home" href="#about">About us</a>
 				</li>
 				<li class="nav-item px-1">
-				  <a class="nav-link" href="#">services</a>
+				  <a class="nav-link" href="#service">services</a>
 				</li>
 				<li class="nav-item px-1">
-				  <a class="nav-link" href="#">Portfolio</a>
+				  <a class="nav-link" href="#portfolio">Portfolio</a>
 				</li>
 				<li class="nav-item px-1">
-				  <a class="nav-link" href="#">team</a>
+				  <a class="nav-link" href="#team">team</a>
 				</li>
 				<li class="nav-item dropdown px-1">
 				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -47,7 +47,7 @@
 				</ul>
 				</li>
 				<li class="nav-item px-2">
-				  <a class="nav-link " href="#">contact</a>
+				  <a class="nav-link " href="#contacts">contact</a>
 				</li>
 				<button type="button" class="btn btn-danger rounded-pill px-4">Get start</button>
 			  </ul>
@@ -56,7 +56,7 @@
 		</nav>
 
 <!--banner1-->
-	<section class="banner" data-aos-delay="300" data-aos="fade-up">
+	<section class="banner" id="home" data-aos-delay="300" data-aos="fade-up">
 		<div class="container">
 			<div class="row  banner1 pt-5 pb-5">
 				<div class="col-lg-6 col-md-12 col-sm-12 order-1 order-md-1 order-lg-0">
@@ -72,8 +72,9 @@
 	</section>
 	
 <!--banner2-->
-	<section class="banner2"  data-aos-delay="300" data-aos="fade-up">
+	<section class="banner2" id="about" data-aos-delay="300" data-aos="fade-up">
 		<div class="container">
+		  <div class="row pt-4 pb-4">
 			<div class="row pt-5 pb-5">
 					<div class="col-lg-6 row pt-5">
 						<img src="css\img\about-img.svg">
@@ -95,15 +96,17 @@
 						<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
 						</div>
 					</div>
+					</div>
 			</div>
 		</div>
 	</section>
 <!--service section-->
 	
-	<section id="service" class="ser"data-aos-delay="300" data-aos="fade-up">
+	<section id="service" class="ser pt-5"data-aos-delay="300" data-aos="fade-up">
 	<div class="container">
-		<div class="row align-items-center se text-center pt-4 mb-4">
-			<h4>Services</h4>
+	  <div class="row pt-5 pb-5">
+		<div class="row align-items-center se  text-center py-4">
+			<h2>Services</h2>
 			<p>Check out the great services we offer</p>
 		</div>
 		<div class="row mb-5">
@@ -152,13 +155,14 @@
 				</div>
 			</div>
 		</div>
+		</div>
 	</div>
 </section>
 
 	<!--portfolio-->
 	<section class="pfolio" id="portfolio">
 		<div class="container">
-			<div class="row pt-5 pb-5">
+			<div class="row pt-4">
 				<div class="row text-center porthead pt-4 pb-4">
 					<h5>Portfolio</h5>
 					<h2>Check out our beautifull portfolio</h2>
@@ -275,158 +279,151 @@
 		</div>	
 	</section>
     <!--faq section-->
-	 <section id="faq" class="py-5">
-		<div class="container">
-			<div class="row">
-				<div class="col text-center">
-					<h3 class="head-color">F.A.Q</h3>
-					<p class="fs-2 fw-bold after-line">Frequently Asked Questions</p>
-				</div>
-			</div>
-			<div class="accordion mt-5" id="accordionExample">
-				<div class="accordion-item border-top-0 border-start-0 border-end-0">
-					<h2 class="accordion-header" id="headingOne">
-						<button class="accordion-button collapsed question-button fw-bold fs-5 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Non consectetur a erat nam at lectus urna duis?</button>
-					</h2>
-					<div id="collapseOne" class="accordion-collapse collapse show question-button" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-						<div class="accordion-body">
-							<p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
-						</div>
-					</div>
-				</div>
-				<div class="accordion-item border-top-0 border-start-0 border-end-0">
-					<h2 class="accordion-header" id="headingTwo">
-						<button class="accordion-button collapsed question-button fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target=	"#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</button>
-					</h2>
-					<div id="collapseTwo" class="accordion-collapse collapse question-button" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-						<div class="accordion-body">
-							<p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
-						</div>
-					</div>
-				</div>
-				<div class="accordion-item border-top-0 border-start-0 border-end-0">
-					<h2 class="accordion-header" id="headingThree">
-						<button class="accordion-button collapsed question-button fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?</button>
-					</h2>
-					<div id="collapseThree" class="accordion-collapse collapse question-button" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-						<div class="accordion-body">
-							<p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
-						</div>
-					</div>
-				</div>
-				<div class="accordion-item border-top-0 border-start-0 border-end-0">
-					<h2 class="accordion-header" id="headingFour">
-						<button class="accordion-button collapsed question-button fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</button>
-					</h2>
-					<div id="collapseFour" class="accordion-collapse collapse question-button" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-						<div class="accordion-body">
-							<p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
-						</div>
-					</div>
-				</div>
-				<div class="accordion-item border-top-0 border-start-0 border-end-0">
-					<h2 class="accordion-header" id="headingFive">
-						<button class="accordion-button collapsed question-button fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</button>
-					</h2>
-					<div id="collapseFive" class="accordion-collapse collapse question-button" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-						<div class="accordion-body">
-							<p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
-						</div>
-					</div>
-				</div>
-				<div class="accordion-item border-top-0 border-start-0 border-end-0">
-					<h2 class="accordion-header" id="headingSix">
-						<button class="accordion-button collapsed question-button fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?</button>
-					</h2>
-					<div id="collapseSix" class="accordion-collapse collapse question-button" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-						<div class="accordion-body">
-							<p>Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--team section-->  
-	 <section class="team"data-aos-delay="300" data-aos="fade-up" id="team">
+	 <section class="question pt-5" id="question">
 	<div class="container">
-		<div class="row team-title align-items-center text-center mt-2">
-			<h3>Team</h3>
-			<p>Our team is always here to help</p>
+		<div class="row question-title align-items-center py-4 text-center">
+			<h5>F.A.Q</h5>
+			<h2>Frequently Asked Questions</h2>
 		</div>
-		
-		<div class="row my-5 g-3 justify-content-center">
-			<div class="col-12 col-md-6 col-lg-3">
-				<div class="row member">
-					<img src="css\img/team-1.jpg">
-					<div class="member-info">
-						<div class="member-info-content">
-							<h5>Walter White</h5>
-							<span class="fst-italic">Chief Executive Officer</span>
-						</div>
-					</div>
-					<div class="member-social">
-						<i class="bi bi-twitter"></i>
-						<i class="bi bi-facebook"></i>
-						<i class="bi bi-instagram"></i>
-						<i class="bi bi-linkedin"></i>
+		<div class="accordion mt-5" id="accordionExample">
+			<div class="accordion-item border-top-0 border-start-0 border-end-0">
+				<h2 class="accordion-header" id="headingOne">
+					<button class="accordion-button collapsed question-button fw-bold fs-5 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Non consectetur a erat nam at lectus urna duis?</button>
+				</h2>
+				<div id="collapseOne" class="accordion-collapse collapse show question-button" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+					<div class="accordion-body">
+						<p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
 					</div>
 				</div>
 			</div>
-			<div class="col-12 col-md-6 col-lg-3">
-				<div class="row member">
-					<img src="css\img/team-2.jpg">
-					<div class="member-info">
-						<div class="member-info-content">
-							<h5>Sarah Jhonson</h5>
-							<span class="fst-italic">Product Manager</span>
-						</div>
-					</div>
-					<div class="member-social">
-						<i class="bi bi-twitter"></i>
-						<i class="bi bi-facebook"></i>
-						<i class="bi bi-instagram"></i>
-						<i class="bi bi-linkedin"></i>
+			<div class="accordion-item border-top-0 border-start-0 border-end-0">
+				<h2 class="accordion-header" id="headingTwo">
+					<button class="accordion-button collapsed question-button fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target=	"#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</button>
+				</h2>
+				<div id="collapseTwo" class="accordion-collapse collapse question-button" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+					<div class="accordion-body">
+						<p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
 					</div>
 				</div>
 			</div>
-			<div class="col-12 col-md-6 col-lg-3">
-				<div class="row member">
-					<img src="css\img/team-3.jpg">
-					<div class="member-info">
-						<div class="member-info-content">
-							<h5>William Anderson</h5>
-							<span class="fst-italic">CTO</span>
-						</div>
-					</div>
-					<div class="member-social">
-						<i class="bi bi-twitter"></i>
-						<i class="bi bi-facebook"></i>
-						<i class="bi bi-instagram"></i>
-						<i class="bi bi-linkedin"></i>
+			<div class="accordion-item border-top-0 border-start-0 border-end-0">
+				<h2 class="accordion-header" id="headingThree">
+					<button class="accordion-button collapsed question-button fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?</button>
+				</h2>
+				<div id="collapseThree" class="accordion-collapse collapse question-button" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+					<div class="accordion-body">
+						<p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
 					</div>
 				</div>
 			</div>
-			<div class="col-12 col-md-6 col-lg-3">
-				<div class="row member">
-					<img src="css\img/team-4.jpg">
-					<div class="member-info">
-						<div class="member-info-content">
-							<h5>Amanda Jepson</h5>
-							<span class="fst-italic">Accountant</span>
-						</div>
+			<div class="accordion-item border-top-0 border-start-0 border-end-0">
+				<h2 class="accordion-header" id="headingFour">
+					<button class="accordion-button collapsed question-button fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</button>
+				</h2>
+				<div id="collapseFour" class="accordion-collapse collapse question-button" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+					<div class="accordion-body">
+						<p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
 					</div>
-					<div class="member-social">
-						<i class="bi bi-twitter"></i>
-						<i class="bi bi-facebook"></i>
-						<i class="bi bi-instagram"></i>
-						<i class="bi bi-linkedin"></i>
+				</div>
+			</div>
+			<div class="accordion-item border-top-0 border-start-0 border-end-0">
+				<h2 class="accordion-header" id="headingFive">
+					<button class="accordion-button collapsed question-button fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</button>
+				</h2>
+				<div id="collapseFive" class="accordion-collapse collapse question-button" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+					<div class="accordion-body">
+						<p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item border-top-0 border-start-0 border-end-0">
+				<h2 class="accordion-header" id="headingSix">
+					<button class="accordion-button collapsed question-button fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?</button>
+				</h2>
+				<div id="collapseSix" class="accordion-collapse collapse question-button" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+					<div class="accordion-body">
+						<p>Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
+	<!--team section-->  
+	<section id="team" class="team pt-5 pb-5">
+		<div class="container">
+			<div class="row py-4">
+				<div class="col text-center pb-3">
+					<h3 class="head-color">Team</h3>
+					<p class="fs-2 as fw-bold after-line">Our team is always here to help</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class=" team1 col-sm-12 col-md-6 col-lg-3">
+					<img  class="img-fluid" src="css/img/team-1.jpg" alt="img">
+					<div class="teaminfo">
+						<div class="teamname">
+							<h5>Walter white</h5>
+							<span><i>Chief Executive Officer</i></span>
+						</div>
+					    <div class="teamicon">
+							<iconify-icon icon="akar-icons:twitter-fill"></iconify-icon>
+							<iconify-icon icon="akar-icons:facebook-fill"></iconify-icon>
+							<iconify-icon icon="akar-icons:instagram-fill"></iconify-icon>
+							<iconify-icon icon="akar-icons:linkedin-fill"></iconify-icon>
+						</div>
+					</div>
+				</div>
+				<div class=" team1 col-sm-12 col-md-6 col-lg-3">
+					<img  class="img-fluid" src="css/img/team-2.jpg" alt="img">
+					<div class="teaminfo">
+						<div class="teamname">
+							<h5>Sarah Johnson</h5>
+							<span>Product manager</span>
+						</div>
+					    <div class="teamicon">
+							<iconify-icon icon="akar-icons:twitter-fill"></iconify-icon>
+							<iconify-icon icon="akar-icons:facebook-fill"></iconify-icon>
+							<iconify-icon icon="akar-icons:instagram-fill"></iconify-icon>
+							<iconify-icon icon="akar-icons:linkedin-fill"></iconify-icon>
+						</div>
+					</div>
+				</div>
+				<div class = " team1 col-sm-12 col-md-6 col-lg-3">
+					<img  class="img-fluid" src="css/img/team-3.jpg" alt="img">
+					<div class="teaminfo">
+						<div class="teamname">
+							<h5>William Anderson</h5>
+							<span>CTO</span>
+						</div>
+					    <div class="teamicon">
+							<iconify-icon icon="akar-icons:twitter-fill"></iconify-icon>
+							<iconify-icon icon="akar-icons:facebook-fill"></iconify-icon>
+							<iconify-icon icon="akar-icons:instagram-fill"></iconify-icon>
+							<iconify-icon icon="akar-icons:linkedin-fill"></iconify-icon>
+						</div>
+					</div>
+				</div>
+				<div class = " team1 col-sm-12 col-md-6 col-lg-3">
+					<img  class="img-fluid" src="css/img/team-4.jpg" alt="img">
+					<div class="teaminfo">
+						<div class="teamname">
+							<h5>Amanda Jepson</h5>
+							<span><i>Accountant</i></span>
+						</div>
+					    <div class="teamicon">
+							<iconify-icon icon="akar-icons:twitter-fill"></iconify-icon>
+							<iconify-icon icon="akar-icons:facebook-fill"></iconify-icon>
+							<iconify-icon icon="akar-icons:instagram-fill"></iconify-icon>
+							<iconify-icon icon="akar-icons:linkedin-fill"></iconify-icon>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+				
 		 
 <!--client section-->
 	<section class="banner7"data-aos-delay="300" data-aos="fade-up">
@@ -459,15 +456,15 @@
 		   </section>
 		 
 	<!--contact section-->
-	<section id="contacts" class="banner8"data-aos-delay="300" data-aos="fade-up">
+	<section id="contacts" class="banner8 pt-5"data-aos-delay="300" data-aos="fade-up">
 		<div class="container">
-			<div class="row">
-				<div class="col text-center">
+			   <div class="row py-5">
+				<div class="col head text-center">
 					<h3 class="head-color">Contact Us</h3>
 					<p class="fs-2 fw-bold after-line">Contact us the get started</p>
 				</div>
 			</div>
-			<div class="row py-5">
+			<div class="row py-3">
 				<div class="col-lg-5 service-bottom">
 					<div class="border-t-b py-5 p-5 mb-5 shadow bor-bot-color bor-top-color">
 						<div class="row b-ho">
